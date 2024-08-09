@@ -1,0 +1,17 @@
+{
+  "name": "bank-app-no-lib",
+  "version": "1.0.0",
+  "description": "Bank app, [no react lib, angular or vue, no redux, no axios and other libraries]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "app",
+    "no",
+    "libraries"
+  ],
+  "author": "Zairov Timur",
+  "license": "ISC"
+}
