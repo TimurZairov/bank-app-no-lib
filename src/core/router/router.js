@@ -65,7 +65,7 @@ export class Router {
 
 		if (!this.#layout) {
 			this.#layout = new Layout({
-				route: this,
+				router: this,
 				children: component.render()
 			})
 			document.getElementById('app').innerHTML = this.#layout.render()

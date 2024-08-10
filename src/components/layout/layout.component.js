@@ -2,20 +2,18 @@ export class Layout {
 	#route
 	#children
 
-	constructor({ route, children }) {
-		this.#route = route
+	constructor({ router, children }) {
+		this.#route = router
 		this.#children = children
 	}
 
 	render() {
 		const headerHtml = `
             <header>Layout header</header>
-            <div>
+            <nav>
                 <a href='/'>Home</a>
-            </div>
-            <div>
-                 <a href='/about-us'>Auth</a>
-            </div>
+                 <a href='/about-us'>AboutUs</a>
+            </nav>
         `
 
 		return `
